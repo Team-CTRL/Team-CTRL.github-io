@@ -1,0 +1,32 @@
+<head>
+    <!-- Site Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#000000">
+    <!-- noindex -->
+    {% if page.noindex %}
+    <meta name="robots" content="noindex" />
+    {% endif %}
+    <title>{% unless page.title == "Home" %}{{ page.title }} - {% endunless %}{{ site.title }}{% if page.title == "Home" %} - {{site.description}}{% endif %}</title>
+
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    {% capture seo %}
+    {% seo %}
+    {% endcapture %}
+    <meta name="twitter:card"
+          content="summary{% if page.image %}{% unless page.image == site.logo %}_large_image{% endunless %}{% endif %}">
+    {% if page.image %}{%if page.image == site.logo %}
+    {{ seo }}
+    {% else %}
+    {{ seo | replace: "summary", "summary_large_image" }}
+    {% endif %}
+    {% else %}
+    {{ seo }}
+    {% endif %}
+    <script>const SITE_URL = "{{site.url}}";</script>
+    <script>const PAGE_AUTHOR = "{{page.author}}";</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>

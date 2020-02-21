@@ -1,0 +1,55 @@
+title: Team CTRL
+
+url: https://team-ctrl.github.io
+repository: team-ctrl/team-ctrl.github.io
+
+collections:
+  games:
+    output:true
+
+permalink: pretty
+production: true
+
+plugins:
+ - jekyll-feed
+ - jekyll-redirect-from
+ - jekyll-seo-tag
+ - jekyll-sitemap
+ - jekyll-avatar
+ - jemoji
+ - jekyll-mentions
+ - jekyll-include-cache
+
+#Build Settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  auto_ids: false
+
+excludes:
+  - Gemfile
+  - Gemfile.lock
+  - ".sh"
+  - README.md
+  - ".gitignore"
+
+  
+defaults:
+- scope:
+    path: ""
+  values:
+    image: /favicon.ico
+    layout: basic
+    list: false
+- scope:
+    path: ""
+    type: posts
+  values:
+    layout: post
+    list: true
+ - scope:
+     path: ""
+	 type: games
+   values:
+     layout: game
