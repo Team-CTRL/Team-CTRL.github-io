@@ -47,8 +47,8 @@ defaults:
   values:
     layout: post
     list: true
- - scope:
-     path: ""
-	 type: games
-   values:
-     layout: game
+- scope:
+    path: ""
+    type: games
+  values:
+    layout: game
