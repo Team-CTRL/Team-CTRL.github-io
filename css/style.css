@@ -1,0 +1,97 @@
+header,
+footer,
+.sitenav,
+main {
+  background-color: black;
+}
+
+.sitenav li:nth-child(1).active, .sitenav li:nth-child(1):hover {
+  background-color: red;
+}
+.sitenav li:nth-child(1).active a, .sitenav li:nth-child(1):hover a {
+  color: white;
+}
+.sitenav li:nth-child(2).active, .sitenav li:nth-child(2):hover {
+  background-color: green;
+}
+.sitenav li:nth-child(2).active a, .sitenav li:nth-child(2):hover a {
+  color: white;
+}
+.sitenav li:nth-child(3).active, .sitenav li:nth-child(3):hover {
+  background-color: blue;
+}
+.sitenav li:nth-child(3).active a, .sitenav li:nth-child(3):hover a {
+  color: white;
+}
+.sitenav li:nth-child(4).active, .sitenav li:nth-child(4):hover {
+  background-color: yellow;
+}
+.sitenav li:nth-child(4).active a, .sitenav li:nth-child(4):hover a {
+  color: black;
+}
+
+.c-1 header,
+.c-1 footer,
+.c-1 .sitenav {
+  background-color: red;
+}
+.c-1 li:nth-child(1).active {
+  background-color: black;
+}
+.c-1 li:nth-child(1).active a {
+  color: white;
+}
+
+.c-2 header,
+.c-2 footer,
+.c-2 .sitenav {
+  background-color: green;
+}
+.c-2 li:nth-child(2).active {
+  background-color: black;
+}
+.c-2 li:nth-child(2).active a {
+  color: white;
+}
+
+.c-3 header,
+.c-3 footer,
+.c-3 .sitenav {
+  background-color: blue;
+}
+.c-3 li:nth-child(3).active {
+  background-color: black;
+}
+.c-3 li:nth-child(3).active a {
+  color: white;
+}
+
+.c-4 header,
+.c-4 footer,
+.c-4 .sitenav {
+  background-color: yellow;
+  color: black;
+}
+.c-4 header a,
+.c-4 footer a,
+.c-4 .sitenav a {
+  color: black;
+}
+.c-4 li:nth-child(4).active {
+  background-color: black;
+}
+.c-4 li:nth-child(4).active a {
+  color: white;
+}
+
+.page {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  margin-top: 50px;
+}
+
+.page-title {
+  margin: 30px 3px;
+  margin-bottom: unset;
+}

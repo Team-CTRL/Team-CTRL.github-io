@@ -1,12 +1,21 @@
-<nav>
-    <div>CTRL</div>
-    <ul>
-        {% for nav in site.data.nav %}
+<header>
+	<div class="header-container">
+		<div class="sitetitle">
+			<a href="javascript:toggleMenu()" class="btn btn-mobile">
+				<div class="burger"></div>
+			</a>
+			<a class="sitelogo" href="/">CTRL</a>
+		</div>
+		<nav class="sitenav">
+			<ul>
+				{% for nav in site.data.nav %}
         <li class="{% if page.url contains nav.href %} active{% endif %}">
             <a href="{{nav.href}}">
                 {{nav.name}}
             </a>
         </li>
         {% endfor %}
-    </ul>
-</nav>
+			</ul>
+		</nav>
+	</div>
+</header>
