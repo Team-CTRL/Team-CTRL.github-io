@@ -1,97 +1,138 @@
+body {
+  font-family: sans-serif; }
+
 header,
 footer,
 .sitenav,
 main {
-  background-color: black;
-}
+  background-color: black; }
 
 .sitenav li:nth-child(1).active, .sitenav li:nth-child(1):hover {
-  background-color: red;
-}
+  background-color: red; }
+
 .sitenav li:nth-child(1).active a, .sitenav li:nth-child(1):hover a {
-  color: white;
-}
+  color: white; }
+
 .sitenav li:nth-child(2).active, .sitenav li:nth-child(2):hover {
-  background-color: green;
-}
+  background-color: green; }
+
 .sitenav li:nth-child(2).active a, .sitenav li:nth-child(2):hover a {
-  color: white;
-}
+  color: white; }
+
 .sitenav li:nth-child(3).active, .sitenav li:nth-child(3):hover {
-  background-color: blue;
-}
+  background-color: blue; }
+
 .sitenav li:nth-child(3).active a, .sitenav li:nth-child(3):hover a {
-  color: white;
-}
+  color: white; }
+
 .sitenav li:nth-child(4).active, .sitenav li:nth-child(4):hover {
-  background-color: yellow;
-}
+  background-color: gold; }
+
 .sitenav li:nth-child(4).active a, .sitenav li:nth-child(4):hover a {
-  color: black;
-}
+  color: white; }
 
 .c-1 header,
 .c-1 footer,
 .c-1 .sitenav {
-  background-color: red;
-}
+  background-color: red; }
+
 .c-1 li:nth-child(1).active {
-  background-color: black;
-}
+  background-color: black; }
+
 .c-1 li:nth-child(1).active a {
-  color: white;
-}
+  color: white; }
+
+.c-1 h1,
+.c-1 h2,
+.c-1 h3,
+.c-1 h4,
+.c-1 h5,
+.c-1 h6,
+.c-1 h7,
+.c-1 h8,
+.c-1 h9 {
+  color: red; }
 
 .c-2 header,
 .c-2 footer,
 .c-2 .sitenav {
-  background-color: green;
-}
+  background-color: green; }
+
 .c-2 li:nth-child(2).active {
-  background-color: black;
-}
+  background-color: black; }
+
 .c-2 li:nth-child(2).active a {
-  color: white;
-}
+  color: white; }
+
+.c-2 h1,
+.c-2 h2,
+.c-2 h3,
+.c-2 h4,
+.c-2 h5,
+.c-2 h6,
+.c-2 h7,
+.c-2 h8,
+.c-2 h9 {
+  color: green; }
 
 .c-3 header,
 .c-3 footer,
 .c-3 .sitenav {
-  background-color: blue;
-}
+  background-color: blue; }
+
 .c-3 li:nth-child(3).active {
-  background-color: black;
-}
+  background-color: black; }
+
 .c-3 li:nth-child(3).active a {
-  color: white;
-}
+  color: white; }
+
+.c-3 h1,
+.c-3 h2,
+.c-3 h3,
+.c-3 h4,
+.c-3 h5,
+.c-3 h6,
+.c-3 h7,
+.c-3 h8,
+.c-3 h9 {
+  color: blue; }
 
 .c-4 header,
 .c-4 footer,
 .c-4 .sitenav {
-  background-color: yellow;
-  color: black;
-}
+  background-color: gold;
+  color: black; }
+
 .c-4 header a,
 .c-4 footer a,
 .c-4 .sitenav a {
-  color: black;
-}
+  color: black; }
+
 .c-4 li:nth-child(4).active {
-  background-color: black;
-}
+  background-color: black; }
+
 .c-4 li:nth-child(4).active a {
-  color: white;
-}
+  color: white; }
+
+.c-4 h1,
+.c-4 h2,
+.c-4 h3,
+.c-4 h4,
+.c-4 h5,
+.c-4 h6,
+.c-4 h7,
+.c-4 h8,
+.c-4 h9 {
+  color: gold; }
 
 .page {
   height: 100%;
   display: flex;
   flex-flow: column;
-  margin-top: 50px;
-}
+  margin-top: 50px; }
 
 .page-title {
   margin: 30px 3px;
-  margin-bottom: unset;
-}
+  margin-bottom: unset; }
+
+/*# sourceMappingURL=style.css.map */

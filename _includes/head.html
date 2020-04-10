@@ -12,10 +12,10 @@
     {% endif %}
     <title>{% unless page.title == "Home" %}{{ page.title }} - {% endunless %}{{ site.title }}{% if page.title == "Home" %} - {{site.description}}{% endif %}</title>
 
-    <!--Stylesheets-->
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-	<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tumble1999/tumble-css@latest/dist/tumble.min.css">
-	<link rel="stylesheet" href="/css/style.css">
+	<!--Stylesheets-->
+	<link rel="stylesheet" href="/css/normalize.css">
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tumble1999/tumble-css@11/dist/tumble.min.css">
+	<link rel="stylesheet" href="{{site.url}}/css/style.css">
 
     {% capture seo %}
     {% seo %}
@@ -32,5 +32,4 @@
     {% endif %}
     <script>const SITE_URL = "{{site.url}}";</script>
     <script>const PAGE_AUTHOR = "{{page.author}}";</script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
