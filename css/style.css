@@ -1,4 +1,4 @@
-body {
+* {
   font-family: sans-serif; }
 
 header,
@@ -9,39 +9,29 @@ main {
 
 .sitenav li:nth-child(1).active, .sitenav li:nth-child(1):hover {
   background-color: red; }
-
-.sitenav li:nth-child(1).active a, .sitenav li:nth-child(1):hover a {
-  color: white; }
-
+  .sitenav li:nth-child(1).active a, .sitenav li:nth-child(1):hover a {
+    color: white; }
 .sitenav li:nth-child(2).active, .sitenav li:nth-child(2):hover {
   background-color: green; }
-
-.sitenav li:nth-child(2).active a, .sitenav li:nth-child(2):hover a {
-  color: white; }
-
+  .sitenav li:nth-child(2).active a, .sitenav li:nth-child(2):hover a {
+    color: white; }
 .sitenav li:nth-child(3).active, .sitenav li:nth-child(3):hover {
   background-color: blue; }
-
-.sitenav li:nth-child(3).active a, .sitenav li:nth-child(3):hover a {
-  color: white; }
-
+  .sitenav li:nth-child(3).active a, .sitenav li:nth-child(3):hover a {
+    color: white; }
 .sitenav li:nth-child(4).active, .sitenav li:nth-child(4):hover {
   background-color: gold; }
-
-.sitenav li:nth-child(4).active a, .sitenav li:nth-child(4):hover a {
-  color: white; }
+  .sitenav li:nth-child(4).active a, .sitenav li:nth-child(4):hover a {
+    color: white; }
 
 .c-1 header,
 .c-1 footer,
 .c-1 .sitenav {
   background-color: red; }
-
 .c-1 li:nth-child(1).active {
   background-color: black; }
-
-.c-1 li:nth-child(1).active a {
-  color: white; }
-
+  .c-1 li:nth-child(1).active a {
+    color: white; }
 .c-1 h1,
 .c-1 h2,
 .c-1 h3,
@@ -52,18 +42,28 @@ main {
 .c-1 h8,
 .c-1 h9 {
   color: red; }
+.c-1.team-member {
+  color: white;
+  background-color: red; }
+  .c-1.team-member h1,
+  .c-1.team-member h2,
+  .c-1.team-member h3,
+  .c-1.team-member h4,
+  .c-1.team-member h5,
+  .c-1.team-member h6,
+  .c-1.team-member h7,
+  .c-1.team-member h8,
+  .c-1.team-member h9 {
+    color: white; }
 
 .c-2 header,
 .c-2 footer,
 .c-2 .sitenav {
   background-color: green; }
-
 .c-2 li:nth-child(2).active {
   background-color: black; }
-
-.c-2 li:nth-child(2).active a {
-  color: white; }
-
+  .c-2 li:nth-child(2).active a {
+    color: white; }
 .c-2 h1,
 .c-2 h2,
 .c-2 h3,
@@ -74,18 +74,28 @@ main {
 .c-2 h8,
 .c-2 h9 {
   color: green; }
+.c-2.team-member {
+  color: white;
+  background-color: green; }
+  .c-2.team-member h1,
+  .c-2.team-member h2,
+  .c-2.team-member h3,
+  .c-2.team-member h4,
+  .c-2.team-member h5,
+  .c-2.team-member h6,
+  .c-2.team-member h7,
+  .c-2.team-member h8,
+  .c-2.team-member h9 {
+    color: white; }
 
 .c-3 header,
 .c-3 footer,
 .c-3 .sitenav {
   background-color: blue; }
-
 .c-3 li:nth-child(3).active {
   background-color: black; }
-
-.c-3 li:nth-child(3).active a {
-  color: white; }
-
+  .c-3 li:nth-child(3).active a {
+    color: white; }
 .c-3 h1,
 .c-3 h2,
 .c-3 h3,
@@ -96,24 +106,33 @@ main {
 .c-3 h8,
 .c-3 h9 {
   color: blue; }
+.c-3.team-member {
+  color: white;
+  background-color: blue; }
+  .c-3.team-member h1,
+  .c-3.team-member h2,
+  .c-3.team-member h3,
+  .c-3.team-member h4,
+  .c-3.team-member h5,
+  .c-3.team-member h6,
+  .c-3.team-member h7,
+  .c-3.team-member h8,
+  .c-3.team-member h9 {
+    color: white; }
 
 .c-4 header,
 .c-4 footer,
 .c-4 .sitenav {
   background-color: gold;
   color: black; }
-
-.c-4 header a,
-.c-4 footer a,
-.c-4 .sitenav a {
-  color: black; }
-
+  .c-4 header a,
+  .c-4 footer a,
+  .c-4 .sitenav a {
+    color: black; }
 .c-4 li:nth-child(4).active {
   background-color: black; }
-
-.c-4 li:nth-child(4).active a {
-  color: white; }
-
+  .c-4 li:nth-child(4).active a {
+    color: white; }
 .c-4 h1,
 .c-4 h2,
 .c-4 h3,
@@ -124,6 +143,19 @@ main {
 .c-4 h8,
 .c-4 h9 {
   color: gold; }
+.c-4.team-member {
+  color: white;
+  background-color: gold; }
+  .c-4.team-member h1,
+  .c-4.team-member h2,
+  .c-4.team-member h3,
+  .c-4.team-member h4,
+  .c-4.team-member h5,
+  .c-4.team-member h6,
+  .c-4.team-member h7,
+  .c-4.team-member h8,
+  .c-4.team-member h9 {
+    color: white; }
 
 .page {
   height: 100%;
@@ -134,5 +166,9 @@ main {
 .page-title {
   margin: 30px 3px;
   margin-bottom: unset; }
+
+.team-member-main {
+  text-align: left;
+  padding-left: 10px; }
 
 /*# sourceMappingURL=style.css.map */

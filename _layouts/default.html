@@ -4,7 +4,7 @@ layout: null
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
-<body>
+<body class="{% for nav in site.data.nav %}{% if page.url contains nav.href %}c-{{forloop.index }}{% endif %}{% endfor %}">
 	{% include nav.html %}
 	<main>
 		{{content}}

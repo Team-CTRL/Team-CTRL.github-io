@@ -5,6 +5,10 @@ repository: team-ctrl/team-ctrl.github.io
 permalink: pretty
 production: true
 
+collections:
+ team:
+  output: false
+
 plugins:
  - jekyll-feed
  - jekyll-redirect-from
