@@ -10,7 +10,7 @@ layout: default
 		</div>
 	</div>
 	{% for member in site.team %}
-	<div class="team-member row c-1">
+	<div class="team-member row c-{{forloop.index }}">
 	<div class="col-tablet-1-3">
 		<img src="{{member.image}}" alt="">
 		</div>
