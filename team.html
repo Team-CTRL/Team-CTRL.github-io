@@ -9,64 +9,20 @@ layout: default
 		<h1>Team</h1>
 		</div>
 	</div>
+	{% for member in site.team %}
 	<div class="team-member row c-1">
 	<div class="col-tablet-1-3">
-		<img src="https://picsum.photos/400" alt="">
+		<img src="{{member.image}}" alt="">
 		</div>
 		<div class="team-member-main col-2-3 col-tablet-2-3">
 			<div class="team-member-head">
-				<h1>NAME</h1>
-				<small>Role</small>
+				<h1>{{member.title}}</h1>
+				<small>{{member.role}}</small>
 			</div>
 			<div class="team-member-body">
-				<p>bla bla bal</p>
-				<ul>
-					<li>List</li>
-					<li>Of</li>
-					<li>Things</li>
-					<li>worked on</li>
-				</ul>
+				{{member.content}}
 			</div>
 		</div>
 	</div>
-	<div class="team-member row c-2">
-	<div class="col-tablet-1-3">
-		<img src="https://picsum.photos/400" alt="">
-		</div>
-		<div class="team-member-main col-2-3 col-tablet-2-3">
-			<div class="team-member-head">
-				<h1>NAME</h1>
-				<small>Role</small>
-			</div>
-			<div class="team-member-body">
-				<p>bla bla bal</p>
-				<ul>
-					<li>List</li>
-					<li>Of</li>
-					<li>Things</li>
-					<li>worked on</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<div class="team-member row c-3">
-	<div class="col-tablet-1-3">
-		<img src="https://picsum.photos/400" alt="">
-		</div>
-		<div class="team-member-main col-2-3 col-tablet-2-3">
-			<div class="team-member-head">
-				<h1>NAME</h1>
-				<small>Role</small>
-			</div>
-			<div class="team-member-body">
-				<p>bla bla bal</p>
-				<ul>
-					<li>List</li>
-					<li>Of</li>
-					<li>Things</li>
-					<li>worked on</li>
-				</ul>
-			</div>
-		</div>
-	</div>
+	{% endfor %}
 </div>
